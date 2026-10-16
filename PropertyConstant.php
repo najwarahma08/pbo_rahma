@@ -17,6 +17,7 @@ class Produk {
     public function total() {
         return $this->harga + ($this->harga * self::PAJAK);
     }
+    
 }
 
 //object
